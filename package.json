@@ -1,0 +1,30 @@
+{
+  "name": "opentimestamps",
+  "version": "0.4.9",
+  "description": "OpenTimestamps client (fork: native https replaces deprecated request-promise, removes request/tough-cookie/qs/uuid CVEs)",
+  "main": "open-timestamps.js",
+  "dependencies": {
+    "bitcore-lib": "^8.14.4",
+    "minimatch": "^3.0.4",
+    "promise": "^7.3.1",
+    "properties": "^1.2.1"
+  },
+  "scripts": {},
+  "bin": {
+    "ots-cli.js": "./ots-cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opentimestamps/javascript-opentimestamps.git"
+  },
+  "author": "EternityWall",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/opentimestamps/javascript-opentimestamps/issues"
+  },
+  "homepage": "https://github.com/opentimestamps/javascript-opentimestamps#readme",
+  "overrides": {
+    "bn.js": "^4.12.3",
+    "elliptic": "^6.6.1"
+  }
+}
